@@ -48,7 +48,51 @@ button {
 
 .botao-inicio button a {
     text-decoration: none;
-    color: blue;
+    color: #2C59AD;
+}
+
+.botao-inicio button:hover {
+    color: white;
+    background-color: #2C59AD;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.botao-inicio button a:hover {
+    color: white;
 }
 
 /*header*/
+
+/*footer*/
+
+footer {
+    padding: 40px 0%;
+    background-color: black;
+}
+
+footer .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-footer ul li {
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+.menu-footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer hr {
+    margin: 50px;
+}
+
+footer p {
+    color: white;
+    margin: 20px;
+}
