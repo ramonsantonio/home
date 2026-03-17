@@ -64,6 +64,15 @@ button {
 
 /*header*/
 
+section .banner-incial {
+    padding: 40px 4%;
+}
+
+.img-banner-pc img {
+    width: 100%;
+    height: 650px;
+}
+
 /*footer*/
 
 footer {
