@@ -64,14 +64,56 @@ button {
 
 /*header*/
 
+/*banner inicial*/
+
 section .banner-incial {
     padding: 40px 4%;
 }
 
 .img-banner-pc img {
-    width: 100%;
+    width: 107%;
     height: 650px;
 }
+
+/*banner inicial*/
+
+
+/*destaque-industrias*/
+
+.destaque-industrias {
+    padding: 40px 4%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.escrita h2 {
+    color: #2C59AD;
+}
+
+.escrita p {
+    margin-top: 10px;
+}
+
+.botao-industrias button {
+    background-color: #2C59AD;
+    margin-top: 20px;
+}
+
+.botao-industrias button a {
+    color: white;
+    text-decoration: none;
+}
+
+.img-industrias-pc img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+/*destaque-industrias*/
 
 /*footer*/
 
