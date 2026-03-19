@@ -82,6 +82,8 @@ section .banner-incial {
 
 .destaque-industrias {
     padding: 40px 4%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .flex {
