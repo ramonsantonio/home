@@ -86,7 +86,7 @@ section .banner-incial {
     margin-bottom: 50px;
 }
 
-.flex {
+.destaque-industrias .flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -116,6 +116,39 @@ section .banner-incial {
     border-radius: 10px;
 }
 /*destaque-industrias*/
+
+/*destaque-serviços*/
+
+.destaque-serviços {
+    padding: 30px 4%;
+    background-color: #2C59AD;
+    color: white;
+}
+
+.destaque-serviços .flex {
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.destaque-serviços .serviços-h2 h2 {
+    margin-bottom: 10px;
+}
+
+.destaque-serviços .serviços-p p {
+    margin-bottom: 10px;
+}
+
+.destaque-serviços .serviços-botao button a {
+    text-decoration: none;
+    color: #2C59AD;
+}
+
+.destaque-serviços .serviços-img img {
+    width: 400px;
+}
+
+/*destaque-serviços*/
 
 /*footer*/
 
