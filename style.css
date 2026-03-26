@@ -146,6 +146,7 @@ section .banner-incial {
 
 .destaque-serviços .serviços-img img {
     width: 400px;
+    margin-top: 30px;
 }
 
 /*destaque-serviços*/
