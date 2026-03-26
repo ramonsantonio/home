@@ -86,6 +86,7 @@ section .banner-incial {
     margin-bottom: 50px;
 }
 
+
 .destaque-industrias .flex {
     display: flex;
     justify-content: space-between;
@@ -108,6 +109,13 @@ section .banner-incial {
 .botao-industrias button a {
     color: white;
     text-decoration: none;
+}
+
+.botao-industrias button:hover {
+    color: white;
+    background-color: #2C59AD;
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .img-industrias-pc img {
@@ -144,12 +152,25 @@ section .banner-incial {
     color: #2C59AD;
 }
 
+.serviços-botao button:hover {
+    color: #2C59AD;
+    background-color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 .destaque-serviços .serviços-img img {
     width: 400px;
     margin-top: 30px;
 }
 
 /*destaque-serviços*/
+
+
+
+
+
+
 
 /*footer*/
 
