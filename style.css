@@ -72,7 +72,7 @@ section .banner-incial {
 
 .img-banner-pc img {
     width: 107%;
-    height: 650px;
+    height: 630px;
 }
 
 /*banner inicial*/
@@ -82,10 +82,11 @@ section .banner-incial {
 
 .destaque-industrias {
     padding: 40px 4%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    height: 400px;
+    background-image: url('img/papel1.png');
+    background-size: cover;
+    
 }
-
 
 .destaque-industrias .flex {
     display: flex;
@@ -93,11 +94,11 @@ section .banner-incial {
     align-items: center;
 }
 
-.escrita h2 {
+.destaque-industrias .flex  .escrita h2 {
     color: #2C59AD;
 }
 
-.escrita p {
+.destaque-industrias .flex .escrita p {
     margin-top: 10px;
 }
 
