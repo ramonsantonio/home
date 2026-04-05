@@ -23,8 +23,13 @@ header .flex {
     justify-content: space-between;
 }
 
-.img-logo img {
+.img-logo a img {
     width: 200px;
+}
+
+.img-logo a img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 nav ul li {
@@ -52,26 +57,22 @@ button {
 }
 
 .botao-inicio button:hover {
-    color: white;
-    background-color: #2C59AD;
     cursor: pointer;
     transform: scale(1.05);
 }
 
-.botao-inicio button a:hover {
-    color: white;
-}
-
 /*header*/
+
+
 
 /*banner inicial*/
 
-section .banner-incial {
+.banner-incial {
     padding: 40px 4%;
 }
 
 .img-banner-pc img {
-    width: 107%;
+    width: 100%;
     height: 630px;
 }
 
@@ -82,16 +83,15 @@ section .banner-incial {
 
 .destaque-industrias {
     padding: 40px 4%;
-    height: 400px;
-    background-image: url('img/papel1.png');
-    background-size: cover;
-    
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .destaque-industrias .flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .destaque-industrias .flex  .escrita h2 {
@@ -129,7 +129,7 @@ section .banner-incial {
 /*destaque-serviços*/
 
 .destaque-serviços {
-    padding: 30px 4%;
+    padding: 40px 4%;
     background-color: #2C59AD;
     color: white;
 }
